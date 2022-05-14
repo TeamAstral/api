@@ -4,7 +4,6 @@
 		<div class="text-block"> Before you get started using Astral, there is some basic knowledge you will need to know about. Astral does not require an API Key, which allows for free public access across our entire platform. We adjust our rate limits frequently to match our users needs. </div> Astral is still very early in development, so the things we offer may change. So far we offer:
 	</div>
 </div>
-</div>
 <div class="section-block">
 	<div class="answer">
 		<div class="text-block">
