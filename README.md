@@ -8,7 +8,7 @@
 <div class="section-block">
 	<div class="answer">
 		<div class="text-block">
-			<h2 class="endpoint-title">Database Search</h2> <pre><code class="language-plaintext">https://beta.database.report/api/search/{target}/{type}</code></pre>
+			<h2 class="endpoint-title">Database Search</h2> <pre><code class="language-plaintext">https://database.report/api/search/{target}/{type}</code></pre>
 			<p>Send a query request and output all breaches into a format of <code>type</code></p>
 			<h4>target:</h4>
 			<ul class="no-list">
@@ -22,7 +22,7 @@
 				<ul> </ul>
 			</ul>
 		</div>
-		<pre><code class="language-plaintext">GET https://beta.database.report/api/search/magicmanlogan@gmail.com/json</code></pre> <b style="color: rgb(200,200,200);">Response:</b> <pre><code class="language-json" style="width: 100%;">{
+		<pre><code class="language-plaintext">GET https://database.report/api/search/magicmanlogan@gmail.com/json</code></pre> <b style="color: rgb(200,200,200);">Response:</b> <pre><code class="language-json" style="width: 100%;">{
   "response": "success",
   "results": [
     {
@@ -38,7 +38,7 @@
 	<div class="section-block">
 		<div class="answer">
 			<div class="text-block">
-				<h2 class="endpoint-title">Minecraft Search</h2> <pre><code class="language-plaintext">https://beta.database.report/api/search/{target}/{type}</code></pre>
+				<h2 class="endpoint-title">Minecraft Search</h2> <pre><code class="language-plaintext">https://database.report/api/search/{target}/{type}</code></pre>
 				<p>Send a query request and output all minecraft logs into a format of <code>type</code></p>
 				<h4>target:</h4>
 				<ul class="no-list">
@@ -52,7 +52,7 @@
 					<ul> </ul>
 				</ul>
 			</div>
-			<pre><code class="language-plaintext">GET https://beta.database.report/api/minecraft/{target}/{type}</code></pre> <b style="color: rgb(200,200,200);">Response:</b> <pre><code class="language-json" style="width: 100%;">{
+			<pre><code class="language-plaintext">GET https://database.report/api/minecraft/{target}/{type}</code></pre> <b style="color: rgb(200,200,200);">Response:</b> <pre><code class="language-json" style="width: 100%;">{
   "response": "success",
   "results": [
     [
@@ -65,7 +65,7 @@
 	<div class="section-block" id="news">
 		<div class="answer">
 			<div class="text-block">
-				<h2 class="endpoint-title">News / Updates</h2> <pre><code class="language-plaintext">https://beta.database.report/api/news</code></pre>
+				<h2 class="endpoint-title">News / Updates</h2> <pre><code class="language-plaintext">https://database.report/api/news</code></pre>
 				<p>Get a JSON formated list of updates we've made to our APIs' and website</p>
 				<b>Response:</b> <pre><code class="language-json" style="width: 100%;">{
   "05/03/22": "The site is now online, we are improving speeds and website protections rapidly!",
